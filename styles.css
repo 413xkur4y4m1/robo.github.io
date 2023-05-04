@@ -1,0 +1,244 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Estilos para la cabecera */
+  #header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 10px;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+  #pad {
+    padding: 10px 100px;
+    background-color: #ecf0f1;
+
+  }
+  .p {
+    font-family: cursive;
+    font-size: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  div {
+    height: 50px;
+    left: 40px;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  h2 {
+    font-size: 48px;
+    margin-top: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para la sección "¿Qué es Tutoriales de Programación?" */
+  #about {
+    background-color: #ecf0f1;
+    padding: 40px 0;
+  }
+  
+  h2 {
+    font-size: 36px;
+  }
+  
+  /* Estilos para la sección "Nuestros Servicios" */
+  #services {
+    padding: 40px 0;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 0 10px;
+    text-align: center;
+  }
+  
+  .col h3 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  /* Estilos para la sección "Nuestro Equipo" */
+  #team {
+    background-color: #f1c40f;
+    padding: 40px 0;
+  }
+  
+  .col img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para la sección "¿Quieres mejorar tus habilidades?" */
+  .section-cta {
+    background-color: #3498db;
+    color: white;
+    padding: 40px 0;
+  }
+  
+  .section-cta h2 {
+    font-size: 36px;
+  }
+  
+  .section-cta p {
+    font-size: 24px;
+  }
+  
+  /* Estilos para el pie de página */
+  .ver {
+    background-color: #95a5a6;
+    color: white;
+    padding: 40px 0;
+  }
+  
+  .footer h4 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .footer p {
+    font-size: 18px;
+  }
+  
+  .footer a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #95a5a6;
+    text-decoration: none;
+  }
+  .footer a.icon-facebook {
+    background-image: url('https://image.flaticon.com/icons/png/512/179/179319.png');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .footer a.icon-twitter {
+    background-image: url('https://image.flaticon.com/icons/png/512/179/179342.png');
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+}
+.footer a.icon-instagram {
+    background-image: url('https://image.flaticon.com/icons/png/512/174/174855.png');
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    }
+    
+    /* Section CTA */
+    .section-cta {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 30px 0;
+    margin-top: 30px;
+    }
+    
+    .section-cta h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    }
+    
+    .section-cta p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    }
+    
+    .section-cta .button {
+    background-color: #e74c3c;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    }
+    
+    .section-cta .button:hover {
+    background-color: #c0392b;
+    }
+    
+    /* Footer */
+    .footer {
+    background-color: #34495e;
+    color: #fff;
+    padding: 50px 0;
+    margin-top: 30px;
+    }
+    
+    .footer h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    }
+    
+    #p {
+      font-size: 50px;
+      font-family: all;
+
+    }
+    
+    .footer a {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    .footer a:hover {
+    text-decoration: underline;
+    }
+  
